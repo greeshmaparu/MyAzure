@@ -1,0 +1,15 @@
+{
+	"name": "greeshmafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e9dec76c-9b2b-4fca-bba4-a73e0dea2961",
+		"tenantId": "1c6abe68-3d8a-4001-9a74-fe707ac59041"
+	}
+}
