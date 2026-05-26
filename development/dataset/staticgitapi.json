@@ -1,0 +1,22 @@
+{
+	"name": "staticgitapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "gittoazure",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/greeshmaparu/MyAzure/refs/heads/main/AdventureWorks_Products.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
