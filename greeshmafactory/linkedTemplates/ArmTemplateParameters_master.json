@@ -12,7 +12,7 @@
 			"value": "https://greeshmastorageacc.dfs.core.windows.net/"
 		},
 		"gittoazure_properties_typeProperties_url": {
-			"value": "https://raw.githubusercontent.com"
+			"value": "https://raw.githubusercontent.com/"
 		},
 		"containerUri": {
 			"value": ""
